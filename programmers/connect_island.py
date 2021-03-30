@@ -21,6 +21,8 @@
 
 # image.png
 
+
+# minimum spanning tree: kruskal's algorithm
 def solution(n, costs):
     costs = sorted(costs, key=lambda x: x[2])
     find_set_index = {i:i for i in range(n)}
